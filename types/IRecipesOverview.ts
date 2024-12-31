@@ -1,4 +1,5 @@
 export interface IRecipesOverview {
+    id: number,
     image: string,
     name: string,
     cookTimeMinutes: number,
