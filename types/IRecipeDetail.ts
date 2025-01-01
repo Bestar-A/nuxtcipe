@@ -1,7 +1,11 @@
-import type { IRecipesOverview } from "./IRecipesOverview"
-
 export interface IRecipeDetail {
-    overview: IRecipesOverview,
+    id: number,
+    image: string,
+    name: string,
+    cookTimeMinutes: number,
+    caloriesPerServing: number,
+    rating: number,
+    reviewCount: number,
     ingredients: string[],
     instructions: string[]
 }
