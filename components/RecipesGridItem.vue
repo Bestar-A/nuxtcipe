@@ -29,7 +29,7 @@ defineProps<{
             </p>
             <p class="flex gap-1 text-xl">
                 <img src="/star.svg">
-                {{ rating }}({{ reviewCount }})
+                {{ rating }}<span>({{ reviewCount }})</span>
             </p>
         </div>
         <BaseButton 
