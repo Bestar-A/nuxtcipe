@@ -28,15 +28,15 @@ const isActive = (ingredient: string) => activeIngredients.value.has(ingredient)
         <p class="text-5xl max-xl:text-4xl">{{ name }}</p>
         <div class="flex gap-8 my-5">
           <p class="flex gap-1 text-xl">
-            <NuxtImg src="/clock.svg" />
+            <NuxtImg width="20" height="20" src="/clock.svg" />
             {{ cookTimeMinutes }}
           </p>
           <p class="flex gap-1 text-xl">
-            <NuxtImg src="/fire.svg" />
+            <NuxtImg width="20" height="20" src="/fire.svg" />
             {{ caloriesPerServing }}
           </p>
           <p class="flex gap-1 text-xl">
-            <NuxtImg src="/star.svg" />
+            <NuxtImg width="20" height="20" src="/star.svg" />
             {{ rating }}<span class="ml-0.5">({{ reviewCount }})</span>
           </p>
         </div>

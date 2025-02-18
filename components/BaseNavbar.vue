@@ -3,7 +3,7 @@
     <BaseContainer>
         <nav class="py-3.5 flex justify-between">
             <NuxtLink to="/" class="flex items-center gap-2">
-                <NuxtImg format="webp" src="/icon-nuxt.svg" densities="x1" alt="Nuxt Logo" />
+                <NuxtImg height="56" width="56" format="webp" src="/icon-nuxt.svg" densities="x1" alt="Nuxt Logo" />
                 <p class="text-3xl max-sm:hidden">
                     Nuxtcipes
                 </p>

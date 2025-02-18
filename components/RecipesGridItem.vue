@@ -16,21 +16,22 @@ defineProps<{
         :alt="name"
         densities="x1"
         width="480"
+        height="480"
         class="rounded-t-lg" 
     />
     <div class="py-6 px-4">
         <p class="text-2xl max-sm:text-[19px]">{{ name }}</p>
         <div class="flex gap-8 mt-1 mb-5">
             <p class="flex gap-1 text-xl">
-                <img src="/clock.svg" alt="image of a clock">
+                <NuxtImg width="18" height="28" src="/clock.svg" alt="image of a clock" />
                 {{ cookTimeMinutes }}
             </p>
             <p class="flex gap-1 text-xl">
-                <img src="/fire.svg"  alt="image of a fire">
+                <NuxtImg width="18" height="28" src="/fire.svg"  alt="image of a fire" />
                 {{ caloriesPerServing }}
             </p>
             <p class="flex gap-1 text-xl">
-                <img src="/star.svg"  alt="image of a star">
+                <NuxtImg width="18" height="28" src="/star.svg"  alt="image of a star" />
                 {{ rating }}<span>({{ reviewCount }})</span>
             </p>
         </div>
