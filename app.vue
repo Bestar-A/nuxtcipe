@@ -14,6 +14,9 @@ useHead({
       type: 'font/ttf',
       crossorigin: 'anonymous'
     }
-  ]
+  ],
+  htmlAttrs: {
+    lang: 'en'
+  }
 })
 </script>

@@ -20,15 +20,15 @@ defineProps<{
         <p class="text-2xl max-sm:text-[19px]">{{ name }}</p>
         <div class="flex gap-8 mt-1 mb-5">
             <p class="flex gap-1 text-xl">
-                <img src="/clock.svg">
+                <img src="/clock.svg" alt="image of a clock">
                 {{ cookTimeMinutes }}
             </p>
             <p class="flex gap-1 text-xl">
-                <img src="/fire.svg">
+                <img src="/fire.svg"  alt="image of a fire">
                 {{ caloriesPerServing }}
             </p>
             <p class="flex gap-1 text-xl">
-                <img src="/star.svg">
+                <img src="/star.svg"  alt="image of a star">
                 {{ rating }}<span>({{ reviewCount }})</span>
             </p>
         </div>
