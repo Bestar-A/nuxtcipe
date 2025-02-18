@@ -10,7 +10,7 @@
                 </p>
                 <BaseButton class="text-lg max-xl:flex max-xl:justify-self-center px-4 py-2" label="Browse Recipes" :id="1" />
             </div>
-            <img src="/ImageHero.svg" alt="image of the Hero" class="w-[660px]">
+            <NuxtImg width="660" src="/ImageHero.svg" format="webp" alt="image of the Hero" densities="x1" />
         </BaseContainer>
     </div>
 </template>

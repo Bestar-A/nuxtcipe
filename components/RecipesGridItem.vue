@@ -11,10 +11,12 @@ defineProps<{
 </script>
 
 <template>
-    <img 
+    <NuxtImg 
         :src="image" 
-        :alt="name" 
-        class="w-[480px] rounded-t-lg" 
+        :alt="name"
+        densities="x1"
+        width="480"
+        class="rounded-t-lg" 
     />
     <div class="py-6 px-4">
         <p class="text-2xl max-sm:text-[19px]">{{ name }}</p>
