@@ -6,6 +6,10 @@
 
 <script setup>
 useHead({
+  title: 'Recipe Application',
+  meta: [
+    { name: 'description', content: 'Integration of a Figma Design' }
+  ],
   link: [
     {
       rel: 'preload',
